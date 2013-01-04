@@ -7,10 +7,16 @@ require.config({
 
   paths: {
     // Put paths here.
+    "bootstrap": "../vendor/jam/bootstrap/bootstrap/js/bootstrap"
   },
 
   shim: {
     // Put shims here.
+    "bootstrap": {
+      "deps": [
+          "jquery"
+      ]
+    }
   }
 
 });

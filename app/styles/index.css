@@ -1,6 +1,5 @@
-/*-- HTML5 Boilerplate. -----------------------------------------------------*/
+/*-- Twitter Bootstrap -----------------------------------------------------*/
 
-@import "../../vendor/h5bp/css/normalize.css";
-@import "../../vendor/h5bp/css/main.css";
+@import "../../vendor/jam/bootstrap/bootstrap/css/bootstrap.min.css";
 
 /*-- Application stylesheets. -----------------------------------------------*/
