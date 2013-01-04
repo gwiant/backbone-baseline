@@ -10,6 +10,21 @@ function(app) {
     routes: {
       "": "index"
     },
+    
+    // Shortcut for building a url.
+    go: function() {
+      return this.navigate(_.toArray(arguments).join("/"), true);
+    },
+    
+    // Runs the first time the router is instanciated.
+    initialize: function(){
+      
+      // Uncomment to set initial views
+      /* app.useLayout().setViews({
+          //"#selector" : new Module.View()
+       }).render(); */
+      
+    },
 
     index: function() {
 
