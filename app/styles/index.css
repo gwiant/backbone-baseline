@@ -1,5 +1,8 @@
 /*-- Twitter Bootstrap -----------------------------------------------------*/
 
 @import "../../vendor/jam/bootstrap/bootstrap/css/bootstrap.min.css";
+@import "../../vendor/jam/bootstrap/bootstrap/css/bootstrap-responsive.min.css";
 
 /*-- Application stylesheets. -----------------------------------------------*/
+
+@import "intro.styl";
