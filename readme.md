@@ -1,36 +1,37 @@
-![Boilerplate](https://github.com/tbranyen/backbone-boilerplate/raw/assets/header.png)
-
-Backbone Boilerplate
+Backbone Baseline
 ====================
 
-This boilerplate is the product of much research and frustration.  Existing
-boilerplates freely modify Backbone core, lack a build process, and are very
-prescriptive; Backbone Boilerplate changes that.
+This is the start of my preferred baseline for apps built with the backbone boilerplate. Not sure if there's a better way to do this.
 
-Organize your application in a logical filesystem, develop your
-Models/Collections/Views/Routers inside modules, and build knowing you have
-efficient code that will not bottleneck your users.
 
-Thanks to our
-[Contributors](https://github.com/tbranyen/backbone-boilerplate/contributors)!
+Changes from backbone-boilerplate:
 
-Special Thanks to: [cowboy](http://github.com/cowboy),
-[iros](http://github.com/iros), [nimbupani](http://github.com/nimbupani),
-[wookiehangover](http://github.com/wookiehangover), and
-[jugglinmike](http://github.com/jugglinmike) for helping me create this project.
+* Uses twitter bootstrap instead of h5bp.
+* Includes an example module called intro.
+* Includes a main-layout template that is rendered in the router along with the intro module.
+* Router includes the handy 'go' function from the github viewer.
 
-Extra Special Thanks to: [Paul Guinan](http://bigredhair.com/work/paul.html)
-for giving me usage rights to his fantastic Boilerplate character.
+
+Future:
+
+* Changes for grunt.js and bbb release
+* Maybe try to figure out how to get this repository to work with grunt-bbb and bbb:init?
+
 
 ## Documentation ##
 
-View the Backbone Boilerplate documentation here:
+[Backbone Boilerplate documentation](https://github.com/tbranyen/backbone-boilerplate/wiki)
 
-[GitHub Wiki](https://github.com/tbranyen/backbone-boilerplate/wiki)
+[Grunt-bbb documentation](https://github.com/backbone-boilerplate/grunt-bbb#readme)
 
-## Build process ##
+[Backbone Layout Manager documentation](http://tbranyen.github.com/backbone.layoutmanager/)
 
-To use the new and improved build process, please visit the 
-[grunt-bbb](https://github.com/backbone-boilerplate/grunt-bbb)
-plugin repo and follow the instructions to install.  Basing your project off
-this repo will allow the `bbb` commands to work out-of-the-box.
+## Quick Command Reference ##
+
+bbb init:module
+
+bbb server
+
+bbb install [package-name]
+
+bbb remove [package-name]

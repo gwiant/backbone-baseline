@@ -20,7 +20,7 @@ function(app, Intro) {
     // Runs the first time the router is instanciated.
     initialize: function(){
       
-      // Uncomment to set initial views
+      // Set initial views
       app.useLayout('main-layout').setViews({
           "#content" : new Intro.Views.Layout()
        }).render();
