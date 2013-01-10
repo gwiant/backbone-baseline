@@ -1,9 +1,10 @@
 define([
   // Application.
-  "app"
+  "app",
+  "modules/intro"
 ],
 
-function(app) {
+function(app, Intro) {
 
   // Defining the application router, you can attach sub routers here.
   var Router = Backbone.Router.extend({
@@ -20,9 +21,9 @@ function(app) {
     initialize: function(){
       
       // Uncomment to set initial views
-      /* app.useLayout().setViews({
-          //"#selector" : new Module.View()
-       }).render(); */
+      app.useLayout('main-layout').setViews({
+          "#content" : new Intro.Views.Layout()
+       }).render();
       
     },
 
