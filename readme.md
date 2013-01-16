@@ -21,7 +21,7 @@ Documentation
 
 [Grunt-bbb documentation](https://github.com/backbone-boilerplate/grunt-bbb#readme)
 
-[Backbone Layout Manager documentation](http://tbranyen.github.com/backbone.layoutmanager/)
+[Backbone Layout Manager documentation](http://layoutmanager.org/)
 
 
 Quick Command Reference
