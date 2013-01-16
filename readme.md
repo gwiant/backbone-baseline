@@ -10,6 +10,9 @@ Changes from backbone-boilerplate:
 * Includes an example module called intro.
 * Includes a main-layout template that is rendered in the router along with the intro module.
 * Router includes the handy 'go' function from the github viewer.
+* Customized grunt.js
+** Copies all files into dist directories
+** Set options for uglify
 
 
 Future:
@@ -35,3 +38,5 @@ bbb server
 bbb install [package-name]
 
 bbb remove [package-name]
+
+bbb release
